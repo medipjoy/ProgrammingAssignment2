@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-
+hjlhklhjk
 ## Write a short comment describing this function
 ############
 
@@ -26,6 +26,7 @@ cacheSolve <- function(x=matrix(), ...) {
   if(!is.null(m)){
     message("getting cached data")
     return(m)
+ #jgkljkh
   }
   matrix<-x$get()
   m<-solve(matrix, ...)
