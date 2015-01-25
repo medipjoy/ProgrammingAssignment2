@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-hjlhklhjk
-## Write a short comment describing this function
+############
+The CacheMatrix creats instances of all functions needed to solve. It is the 
+templete.
 ############
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -19,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## It searches for any cached variable
 
 cacheSolve <- function(x=matrix(), ...) {
   m<-x$getmatrix()
